@@ -7,7 +7,7 @@ $workspace = '/home/pity/workspace';
 $projects = scandir($workspace);
 $black_list = array(
   '..',
-  'git_logs',
+  'gitlogs',
 );
 $git_projects = array();
 foreach ($projects as $project) {
